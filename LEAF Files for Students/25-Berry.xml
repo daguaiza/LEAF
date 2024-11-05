@@ -892,6 +892,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?rs_annotation_20241105155238022",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:52:38.022Z",
+	"dcterms:modified": "2024-11-05T20:52:38.022Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/daguaiza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dora Aguayza"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?rs_annotation_20241105155238022#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?rs_annotation_20241105155238022#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q515",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -902,7 +982,7 @@ chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie
 proces of tyme became with other lyke prouinces to bee vunder the Kinges
 of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>. </p><p><placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="low">[Bovrges]<precision match="@ref" precision="medium"/></placeName> (as is a forſaid)  is here the chief citie, in old tyme very famous, and by <persName key="Julius Caesar" ref="http://dbpedia.org/resource/Julius_Caesar" cert="low" type="real">Ceaſar</persName> called Anari[unclear], [&amp;] it is by few <rs key="city" ref="http://www.wikidata.org/entity/Q515">cities</rs> in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> exceeded in greatnes.</p><p>In this <rs key="city" ref="http://www.wikidata.org/entity/Q515">citie</rs> is a <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="low">famous vniuerfitie,</placeName> wherein the liberal fciences are taught,
 which vniuerfitie<note>university</note> was erected in tyme paſt by a Duke of this duchie, who 
-greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this citie, by reaſon of the ſundry riuers [&amp;]  brookes, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of France. </p><p/><p/><p/><p/><p/><p/><p/><p/></div>
+greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry riuers [&amp;]  brookes, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of France. </p><p/><p/><p/><p/><p/><p/><p/><p/></div>
 		</body>
 	</text>
 </TEI>
