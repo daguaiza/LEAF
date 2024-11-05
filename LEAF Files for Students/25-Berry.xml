@@ -174,6 +174,85 @@
 	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?note_annotation_20241105153507833",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:35:07.833Z",
+	"dcterms:modified": "2024-11-05T20:35:07.833Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/daguaiza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dora Aguayza"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?note_annotation_20241105153507833#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?note_annotation_20241105153507833#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "university"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -183,7 +262,7 @@
 chief citie thereof, lieth in the middeft of the realme of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>. </p><p>The inhabitanes of this country were in tymes paſt a free people, but in 
 proces of tyme became with other lyke prouinces to bee vunder the Kinges
 of France. </p><p>[Bovrges] (as is a forſaid)  is here the chief citie, in old tyme very famous, and by Ceaſar called Anari[unclear], [&amp;] it is by few cities in France exceeded in greatnes.</p><p>In this citie is a famous vniuerfitie, wherein the liberal fciences are taught,
-which vniuerfitie was erected in tyme paſt by a Duke of this duchie, who 
+which vniuerfitie<note>university</note> was erected in tyme paſt by a Duke of this duchie, who 
 greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this citie, by reaſon of the ſundry riuers [&amp;]  brookes, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of France. </p><p/><p/><p/><p/><p/><p/><p/><p/></div>
 		</body>
 	</text>
