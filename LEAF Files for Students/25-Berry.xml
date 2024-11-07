@@ -448,7 +448,7 @@
 	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241105154848893",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-11-05T20:48:48.893Z",
-	"dcterms:modified": "2024-11-05T20:48:48.893Z",
+	"dcterms:modified": "2024-11-07T19:57:48.822Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/daguaiza",
 		"@type": [
@@ -490,7 +490,7 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.6.0"
 	},
-	"cwrc:hasCertainty": "cwrc:low"
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1620,7 +1620,7 @@
 				<head><placeName key="Berry" ref="http://www.wikidata.org/entity/Q827169" cert="medium">BERRY<precision match="@ref" precision="low"/></placeName></head><head>[OR <placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="medium">THE COVNTRY OF BOVRGES.<precision match="@ref" precision="medium"/></placeName>]</head><p><placeName key="Berry" ref="http://www.wikidata.org/entity/Q827169">Berry</placeName>, otherwiſe called the country of <placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="medium">[Bovrges]<precision match="@ref" precision="medium"/></placeName>, ſo taking name of this the
 chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs> thereof, lieth in the middeft of the realme of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France<precision match="@ref" precision="high"/></placeName>. </p><p>The inhabitanes of this country were in tymes paſt a free people, but in 
 proces of tyme became with other lyke <rs key="province" ref="http://www.wikidata.org/entity/Q34876" cert="low">prouinces</rs> to bee vunder the <rs key="monarchy" ref="http://www.wikidata.org/entity/Q7269" cert="medium">Kinges
-of</rs> <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France</placeName>. </p><p><placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="low">[Bovrges]<precision match="@ref" precision="medium"/></placeName> (as is a forſaid)  is here the chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, in old tyme very famous, and by <persName key="Julius Caesar" ref="http://dbpedia.org/resource/Julius_Caesar" cert="low" type="real">Ceaſar</persName> called Anari[unclear], [&amp;] it is by few <rs key="city" ref="http://www.wikidata.org/entity/Q515">cities</rs> in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> exceeded in greatnes.</p><p>In this <rs key="city" ref="http://www.wikidata.org/entity/Q515">citie</rs> is a <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="low">famous vniuerfitie,</placeName> wherein the liberal fciences are taught,
+of</rs> <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France</placeName>. </p><p><placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="low">[Bovrges]<precision match="@ref" precision="medium"/></placeName> (as is a forſaid)  is here the chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, in old tyme very famous, and by <persName key="Julius Caesar" ref="http://dbpedia.org/resource/Julius_Caesar" cert="high" type="real">Ceaſar</persName> called Anari, [&amp;] it is by few <rs key="city" ref="http://www.wikidata.org/entity/Q515">cities</rs> in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> exceeded in greatnes.</p><p>In this <rs key="city" ref="http://www.wikidata.org/entity/Q515">citie</rs> is a <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="low">famous vniuerfitie,</placeName> wherein the liberal fciences are taught,
 which <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="medium">vniuerfitie<precision match="@ref" precision="medium"/></placeName><note>university</note> was erected in tyme paſt by a Duke of this duchie, who 
 greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry <placeName key="Yèvre" ref="http://www.wikidata.org/entity/Q905718">riuers</placeName> [&amp;]  <placeName key="Auron" ref="http://www.wikidata.org/entity/Q776604" cert="medium">brookes<precision match="@ref" precision="low"/></placeName>, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France.<precision match="@ref" precision="high"/></placeName> </p><p/><p/><p/><p/><p/><p/><p/><p/></div>
 		</body>
