@@ -1997,8 +1997,85 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Short Title"
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?correction_annotation_20241107153256254",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T20:32:56.254Z",
+	"dcterms:modified": "2024-11-07T20:32:56.254Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/daguaiza",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Dora Aguayza"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?correction_annotation_20241107153256254#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?correction_annotation_20241107153256254#Selector",
+			"@type": "oa:XPathSelector"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:Correction",
+		"dc:format": "text/xml",
+		"rdf:value": ""
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2019,7 +2096,7 @@ chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie
 proces of tyme became with other lyke <rs key="province" ref="http://www.wikidata.org/entity/Q34876" cert="low">prouinces</rs> to bee vunder the <rs key="monarchy" ref="http://www.wikidata.org/entity/Q7269" cert="medium">Kinges
 of</rs> <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France</placeName>. </p><p><placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="low">[Bovrges]<precision match="@ref" precision="medium"/></placeName> (as is a forſaid)  is here the chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, in old tyme very famous, and by <persName key="Julius Caesar" ref="http://dbpedia.org/resource/Julius_Caesar" cert="high" type="real">Ceaſar</persName> called Anari[unclear], [&amp;] it is by few <rs key="city" ref="http://www.wikidata.org/entity/Q515">cities</rs> in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> exceeded in greatnes.</p><p>In this <rs key="city" ref="http://www.wikidata.org/entity/Q515">citie</rs> is a <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="low">famous vniuerfitie,</placeName> wherein the liberal fciences are taught,
 which <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="medium">vniuerfitie<precision match="@ref" precision="medium"/></placeName><note>university</note> was erected in tyme paſt by a Duke of this duchie, who 
-greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry <placeName key="Yèvre" ref="http://www.wikidata.org/entity/Q905718">riuers</placeName> [&amp;]  <placeName key="Auron" ref="http://www.wikidata.org/entity/Q776604" cert="medium">brookes<precision match="@ref" precision="low"/></placeName>, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France.<precision match="@ref" precision="high"/></placeName> </p><p/><p/><p/><p>WORKS CITED</p><p><persName key="Abraham Ortelius" ref="http://www.wikidata.org/entity/Q232916" cert="medium">Ortelius, Abraham</persName>, 1527-1598. <rs key="title" ref="http://www.wikidata.org/entity/Q783521" cert="high">An epitome of Ortelius his Theater of the vvorld<note>Short Title</note>, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions</rs>. <placeName key="Antwerp" ref="http://www.wikidata.org/entity/Q12892" cert="medium">Antwerp<precision match="@ref" precision="low"/></placeName>: Iohn Norton, <date when="1601" cert="high">1601</date>. STC 18857. ProQuest, https://www.proquest.com/books/epitome-ortelius-his-theater-vvorld-vvherein/docview/2240904399/se-2. </p><p/><p/><p/><p/><p/><p/><p/><p/><p/></div>
+greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry <placeName key="Yèvre" ref="http://www.wikidata.org/entity/Q905718">riuers</placeName> [&amp;]  <placeName key="Auron" ref="http://www.wikidata.org/entity/Q776604" cert="medium">brookes<precision match="@ref" precision="low"/></placeName>, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France.<precision match="@ref" precision="high"/></placeName> </p><p/><p/><p/><p>WORKS CITED</p><p><persName key="Abraham Ortelius" ref="http://www.wikidata.org/entity/Q232916" cert="medium">Ortelius, Abraham</persName>, 1527-1598. An epitome of Ortelius his Theater of the vvorld, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions. <placeName key="Antwerp" ref="http://www.wikidata.org/entity/Q12892" cert="medium">Antwerp<precision match="@ref" precision="low"/></placeName>: Iohn Norton, <date when="1601" cert="high">1601</date>. STC 18857. ProQuest, https://www.proquest.com/books/epitome-ortelius-his-theater-vvorld-vvherein/docview/2240904399/se-2. </p><p/><p/><p/><p/><p/><p/><p/><p/><p/></div>
 		</body>
 	</text>
 </TEI>
