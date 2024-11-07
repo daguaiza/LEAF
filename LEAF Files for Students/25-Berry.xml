@@ -445,10 +445,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241105154848893",
+	"id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241107145748822",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-11-05T20:48:48.893Z",
-	"dcterms:modified": "2024-11-07T19:57:48.822Z",
+	"dcterms:created": "2024-11-07T19:57:48.822Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/daguaiza",
 		"@type": [
@@ -459,7 +458,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241105154848893#Target",
+		"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241107145748822#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml",
@@ -473,7 +472,7 @@
 			"schema:softwareVersion": "3.6.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241105154848893#Selector",
+			"@id": "https://raw.githubusercontent.com/daguaiza/LEAF/main/LEAF%20Files%20for%20Students/25-Berry.xml?person_annotation_20241107145748822#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[3]/persName"
 		}
@@ -1622,7 +1621,7 @@ chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie
 proces of tyme became with other lyke <rs key="province" ref="http://www.wikidata.org/entity/Q34876" cert="low">prouinces</rs> to bee vunder the <rs key="monarchy" ref="http://www.wikidata.org/entity/Q7269" cert="medium">Kinges
 of</rs> <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France</placeName>. </p><p><placeName key="Bourges" ref="http://dbpedia.org/resource/Bourges" cert="low">[Bovrges]<precision match="@ref" precision="medium"/></placeName> (as is a forſaid)  is here the chief <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, in old tyme very famous, and by <persName key="Julius Caesar" ref="http://dbpedia.org/resource/Julius_Caesar" cert="high" type="real">Ceaſar</persName> called Anari[unclear], [&amp;] it is by few <rs key="city" ref="http://www.wikidata.org/entity/Q515">cities</rs> in <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> exceeded in greatnes.</p><p>In this <rs key="city" ref="http://www.wikidata.org/entity/Q515">citie</rs> is a <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="low">famous vniuerfitie,</placeName> wherein the liberal fciences are taught,
 which <placeName key="University of Bourges" ref="http://www.wikidata.org/entity/Q2495994" cert="medium">vniuerfitie<precision match="@ref" precision="medium"/></placeName><note>university</note> was erected in tyme paſt by a Duke of this duchie, who 
-greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry <placeName key="Yèvre" ref="http://www.wikidata.org/entity/Q905718">riuers</placeName> [&amp;]  <placeName key="Auron" ref="http://www.wikidata.org/entity/Q776604" cert="medium">brookes<precision match="@ref" precision="low"/></placeName>, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France.<precision match="@ref" precision="high"/></placeName> </p><p/><p>WORKS CITED</p><p>opp</p><p/><p/><p/><p/><p/><p/><p/><p/><p/></div>
+greatly fauoured good letters.</p><p>It hath in many places marriſh ground [&amp;] chiefly about this <rs key="city" ref="http://www.wikidata.org/entity/Q515" cert="high">citie</rs>, by reaſon of the ſundry <placeName key="Yèvre" ref="http://www.wikidata.org/entity/Q905718">riuers</placeName> [&amp;]  <placeName key="Auron" ref="http://www.wikidata.org/entity/Q776604" cert="medium">brookes<precision match="@ref" precision="low"/></placeName>, that pas by [&amp;] about it, neuertheleſſe is it very frutefull,[&amp;]aboundant in all thinges that are generally els where found i[unclear] other partes of <placeName key="France" ref="http://www.wikidata.org/entity/Q142" cert="high">France.<precision match="@ref" precision="high"/></placeName> </p><p/><p/><p/><p>WORKS CITED</p><p>Ortelius, Abraham, 1527-1598. An epitome of Ortelius his Theater of the vvorld, vvherein the principal regions of the earth are descrived in smalle mappes. VVith a brief declaration annexed to ech mappe. And donne in more exact manner, then lyke declarations in Latin, French, or other languages. It is also amplyfied with new mappes wanting in the Latin editions. Antwerp: Iohn Norton, 1601. STC 18857. ProQuest, https://www.proquest.com/books/epitome-ortelius-his-theater-vvorld-vvherein/docview/2240904399/se-2. </p><p/><p/><p/><p/><p/><p/><p/><p/><p/></div>
 		</body>
 	</text>
 </TEI>
